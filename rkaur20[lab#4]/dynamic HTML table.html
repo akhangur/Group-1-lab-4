@@ -1,0 +1,112 @@
+
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+
+<h2>HTML Table</h2>
+<a href="index.html">Go Back to Index</a><br><br>
+
+
+
+<table id = "my table>
+  <thead>
+  
+       Photo:<input type="text" name="photo" id="photo" /><br/><br/>
+     
+	  
+      
+  
+        <tr>
+          <th>Photo></th>
+          <th>First Name</th>
+		  <th>Last Name</th>
+		  <th>Job</th>
+		  <th>Salary($)</th>
+		  
+        </tr>
+		<tr>
+		<td><img src="images/img1.jpg" height="200px" width="200px" alt="img1"></td>
+		<td>Mandy</td>
+		<td>Thakur</td>
+		<td>Computer and Information System Manager</td>
+		<td>7000</td>
+		
+		
+		
+		<tr>
+		<td><img src="images/img2.png" height="200px" width="200px" alt="img2"></td>
+		<td>Mohit</td>
+		<td>Kumar</td>
+		<td>Sales Manager</td>
+		<td>6700</td>
+		<
+		
+		<tr>
+		<td><img src="images/img3.jpg" height="200px" width="200px" alt="img3"></td>
+		<td>Raman</td>
+		<td>Deep</td>
+		<td>Medical and Health Services Manager</td>
+		<td>6500</td>
+		
+		
+		<tr>
+		<td><img src="images/img4.jpg" height="200px" width="200px" alt="img4"></td>
+		<td>Nick</td>
+		<td>Jonas</td>
+		<td>Dentist</td>
+		<td>6000</td>
+		
+		
+		</tr>
+		
+      </thead>
+	  <tfoot>
+	  <tr>
+         
+          <td><input type="text" onkeyup="onEnterUp(event)"></td>
+        </tr>
+	  <td><input type="file" id="myImage" name="imagefile"></td>
+	  <td><input type="text" id="fst" name="fst"></td>
+	  <td><input type="text" id="last" name="last"></td>
+	  <td><input type="text" id="job" name="job"></td>
+	  <td><input type="text" id="slry" name="slry"></td>
+      
+        
+		
+</table>
+<br>
+
+<button onclick="myCreateFunction()">Create row</button>
+<button onclick="myDeleteFunction()">Delete row</button>
+
+<script>
+
+
+<script>
+        function myFunction() {
+            document.getElementById("my tableable").deleteRow(0);
+        }
+    </script>
+</script>
+
+</body>
+</html>
