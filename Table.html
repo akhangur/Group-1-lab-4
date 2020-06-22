@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <Title>Table</Title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="Script.js"></script>
+</head>
+
+<body onload="refresh_table()">
+    <h1 align="center">Group-Members</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>First Name</th>
+                <th> Last Name</th>
+                <th>Job</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody id='table'></tbody>
+        <tfoot>
+            <tr onkeyup="onenterup(event)">
+                <td><input type="file" id="img" name="img"></td>
+                <td><input type="text" id="1st" name="1st"></td>
+                <td><input type="text" id="las" name="las"></td>
+                <td><input type="text" id="Job" name="Job"></td>
+                <td><input type="text" id="sal" name="sal"></td>
+
+
+
+            </tr>
+        </tfoot>
+    </table>
+    <a href="index.html">Index.html</a>
+</body>
+
+</html>
