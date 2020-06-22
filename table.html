@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+	<script type="text/javascript" src="scriptjs.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</header>
+<body>
+	<h4 id="idtag">Your data will apper here!!!</h4>
+	<center><div id="mk"></div></center>
+	<h4 id="idtag">Insert data</h4>
+<table  id="table">
+	<tr>
+		<th>First Name</th>
+		<th>Lst Name</th>
+		<th>Job</th>
+		<th>Salary</th>
+		<th>Choose file</th>
+	</tr>
+	<tr>
+		<td><input type="text" name="firstname" id="firstname"></td>
+		<td><input type="text" name="lastname" id="lastname"></td>
+		<td><input type="text" name="job" id="job"></td>
+		<td><input type="text" name="salary" id="salary"></td>
+		<td><input type="file" name="" id="image"></td>
+	</tr>
+</table>
+	<button id="adddata" onclick="sendData()">Add Data</button>
+</body>
+</html>
