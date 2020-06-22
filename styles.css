@@ -1,0 +1,48 @@
+body
+{
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#table
+{
+	color: white;
+	margin-left: 14%;
+}
+table,tr,td,th
+{
+	border: 1px solid green;
+	color: white;
+}
+table
+{
+	border-collapse: collapse;
+}
+#datatable tr:hover
+{
+	background-color: #535454;
+}
+#adddata
+{
+  margin-left: 40%;
+  margin-top: 20px;
+  width: 100px;
+  height: 30px;
+}
+#addata:hover
+{
+	  background-color: green;
+}
+#imaged
+{
+	width: 100px;height: 100px;
+}
+#imagedc
+{
+	width: 30px;height: 30px;
+}
+#idtag
+{
+	color: white;
+	text-align: center;
+}
